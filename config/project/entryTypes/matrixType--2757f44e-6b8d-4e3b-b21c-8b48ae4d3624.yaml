@@ -1,0 +1,75 @@
+color: null
+fieldLayouts:
+  cdfe0c30-3fc2-4c66-a3a8-a795b233e648:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 233f970e-caec-45ca-9c51-f598289b3a7c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\elements\conditions\entries\TypeConditionRule
+                  operator: in
+                  uid: 395806a4-098a-4d9e-a804-1a52365e379b
+                  values:
+                    - cd783400-11a4-4a03-8382-159a2ea04343 # Page Type
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 35c51405-9888-4522-93e7-bd8c0768279b # Field
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99dde79c-2252-44f6-a51a-ee4a04c16fe2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 76192125-bd4d-4456-9b31-a41e147ea441
+        userCondition: null
+handle: matrixType
+hasTitleField: true
+icon: ''
+name: 'Matrix Type'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

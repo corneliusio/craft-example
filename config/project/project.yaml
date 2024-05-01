@@ -1,0 +1,22 @@
+dateModified: 1714592555
+email:
+  fromEmail: cornelius.ukena@mostlyserious.io
+  fromName: Test
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    8f798e34-dc2a-493a-a1fe-08585ddbafb2: Matrix # Matrix
+    35c51405-9888-4522-93e7-bd8c0768279b: Field # Field
+    2757f44e-6b8d-4e3b-b21c-8b48ae4d3624: 'Matrix Type' # Matrix Type
+    76313fd5-029b-466a-9846-099ac484086d: Pages # Pages
+    93396e6c-9e94-48dd-bf80-aac9577161d9: Test # Test
+    a029457e-9f9f-4f7d-ac68-37564fa9e477: Home # Home
+    aca5f5ca-738a-41e7-b1fc-83ab4fc53723: Test # Test
+    c55ca0a9-4bd6-409b-afd8-c1884dafecd0: Group # Group
+    cd783400-11a4-4a03-8382-159a2ea04343: 'Page Type' # Page Type
+system:
+  edition: pro
+  live: true
+  name: Test
+  schemaVersion: 5.0.0.20
+  timeZone: America/Los_Angeles
