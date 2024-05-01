@@ -39,11 +39,11 @@ fieldLayouts:
               class: craft\elements\conditions\entries\EntryCondition
               conditionRules:
                 -
-                  class: craft\elements\conditions\entries\TypeConditionRule
+                  class: craft\elements\conditions\entries\SectionConditionRule
                   operator: in
                   uid: 395806a4-098a-4d9e-a804-1a52365e379b
                   values:
-                    - cd783400-11a4-4a03-8382-159a2ea04343 # Page Type
+                    - 76313fd5-029b-466a-9846-099ac484086d # Pages
               elementType: craft\elements\Entry
               fieldContext: global
             fieldUid: 35c51405-9888-4522-93e7-bd8c0768279b # Field
